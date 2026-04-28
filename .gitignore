@@ -1,0 +1,17 @@
+# IDE files
+.idea/
+OrderingSystem/.idea/
+
+# Build outputs
+out/
+OrderingSystem/out/
+bin/
+*.class
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Bundled MySQL driver extras that are not needed to run the project
+OrderingSystem/lib/mysql-connector-j-9.4.0/src/
+OrderingSystem/lib/mysql-connector-j-9.4.0.zip
