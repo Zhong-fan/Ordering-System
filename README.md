@@ -4,6 +4,13 @@
 
 当前项目目录除了 Java 源码外，还包含数据库脚本、使用说明、课程设计报告和菜品图片资源，适合直接作为课程设计归档或上传到 GitHub 展示。
 
+## 项目资料
+
+- [使用说明](使用说明.md)
+- [数据库初始化脚本](food_ordering_system.sql)
+- [课程设计报告（PDF）](课程设计报告.pdf)
+- [课程设计报告（Word）](课程设计报告.docx)
+
 ## 项目简介
 
 本项目实现了一个本地运行的桌面端点餐系统，使用 Java Swing 构建图形界面，使用 JDBC 连接 MySQL 数据库完成用户、菜品、订单和订单明细的数据管理。
@@ -49,7 +56,7 @@
 ## 项目结构
 
 ```text
-53-黄世昌-点餐系统/
+Ordering-System/
 ├─ README.md
 ├─ food_ordering_system.sql          # 数据库建表与初始化数据脚本
 ├─ 使用说明.md                        # 原始使用说明
@@ -63,10 +70,8 @@
    │  ├─ ui/                         # Swing 界面层
    │  └─ util/                       # 工具类（数据库连接、图片处理等）
    ├─ lib/
-   │  ├─ mysql-connector-j-9.4.0/
-   │  └─ mysql-connector-j-9.4.0.zip
+   │  └─ mysql-connector-j-9.4.0/
    ├─ 点餐系统图片/                    # 菜品图片资源
-   ├─ out/                           # IDE 编译输出目录
    ├─ .gitignore
    └─ OrderingSystem.iml
 ```
