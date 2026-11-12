@@ -106,4 +106,4 @@ Ordering-System/
 
 ## 许可
 
-仓库尚未声明项目许可证。随附 JDBC 驱动的许可见其目录内的 `LICENSE`。
+本项目采用 [MIT License](LICENSE)。随附的 MySQL Connector/J 驱动（`OrderingSystem/lib/mysql-connector-j-9.4.0/`）版权归 Oracle 所有，按其目录内的许可证分发。
